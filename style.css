@@ -1,0 +1,12 @@
+body {
+    background: white;
+    color: black;
+}
+
+.hero {
+    display: block;
+}
+
+.feature {
+    display: flex;
+}

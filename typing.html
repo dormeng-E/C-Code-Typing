@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>CodeTyping</title>
+
+    <link rel="stylesheet" href="css/typing.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Pretendard:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+<div class="background"></div>
+
+<header>
+
+    <h1>CodeTyping</h1>
+
+    <div class="header-right">
+
+        <span id="nicknameText"></span>
+
+        <button id="homeBtn">
+
+            홈
+
+        </button>
+
+    </div>
+
+</header>
+
+<main>
+
+    <section class="status">
+
+        <div class="status-card">
+
+            <h3>정확도</h3>
+
+            <span id="accuracy">100%</span>
+
+        </div>
+
+        <div class="status-card">
+
+            <h3>CPM</h3>
+
+            <span id="cpm">0</span>
+
+        </div>
+
+        <div class="status-card">
+
+            <h3>오타</h3>
+
+            <span id="typo">0</span>
+
+        </div>
+
+        <div class="status-card">
+
+            <h3>진행률</h3>
+
+            <span id="progress">0%</span>
+
+        </div>
+
+    </section>
+
+    <section class="problem">
+
+        <div class="problem-header">
+
+            <span id="problemTitle">
+
+                문제 1
+
+            </span>
+
+        </div>
+
+        <pre id="codeArea"></pre>
+
+    </section>
+
+    <section class="typing">
+
+        <textarea
+
+            id="typingInput"
+
+            placeholder="여기에 C언어 코드를 입력하세요."
+
+            spellcheck="false"
+
+        ></textarea>
+
+    </section>
+
+    <section class="bottom">
+
+        <button id="restartBtn">
+
+            다시 시작
+
+        </button>
+
+    </section>
+
+</main>
+
+<script type="module" src="js/codeData.js"></script>
+
+<script type="module" src="js/typing.js"></script>
+
+</body>
+
+</html>
